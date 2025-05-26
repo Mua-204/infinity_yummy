@@ -1,11 +1,41 @@
 *{
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style-type: none;
     box-sizing: border-box;
+    text-decoration: none;
 
 }
-.material-symbols-outlined{
-    color: rgb(10, 10, 92);
-    height: 20px;
+#second_nav{
+    background-color: aqua;
+}
+#links{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    justify-items: ;
+}
+#links li{
+    color: rgb(8, 8, 97);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#inital_logo:first-child{
+    background-color: blanchedalmond;
+    width: 210px;
+    font-size: 30px;
+    color: rgb(8, 8, 97);
+    padding: 0px 10px ;
+    /* margin-right: auto; */
+    height: 140px;
+    overflow-y: hidden;
+    align-content: center;
+    text-align: center;
+}
+#inital_logo i{
+    color: rgb(8, 8, 97);
+    font-size: 30px;
+    margin-right: 9px;
 }
