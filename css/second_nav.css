@@ -6,15 +6,22 @@
     text-decoration: none;
 
 }
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
 #second_nav{
-    background-color: aqua;
+    /* background-color: aqua; */
+    border-bottom: 2px rgb(8, 8, 97) solid;
+    width: 100vw;
+    padding: 10px;
 }
 #links{
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 4.5%;
     align-items: center;
-    justify-items: ;
 }
 #links li{
     color: rgb(8, 8, 97);
@@ -23,19 +30,27 @@
 
 }
 #inital_logo:first-child{
-    background-color: blanchedalmond;
-    width: 210px;
-    font-size: 30px;
+    /* background-color: rgb(255, 205, 205); */
+    width: 290px;
+    font-size: 36.9px;
+    text-align-last: left;
     color: rgb(8, 8, 97);
     padding: 0px 10px ;
-    /* margin-right: auto; */
+    margin-right: 30px;
     height: 140px;
-    overflow-y: hidden;
+    overflow: hidden;
     align-content: center;
     text-align: center;
 }
 #inital_logo i{
-    color: rgb(8, 8, 97);
-    font-size: 30px;
-    margin-right: 9px;
+    margin-right: 2px;
+}
+#links li:last-child{
+    border: 1px solid;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    gap: ;
+    height: 35px;
+    font-size: 1.25em;
 }
